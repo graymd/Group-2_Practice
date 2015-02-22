@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Spooning App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/x-template" id="drinkTmpl">
+    <%= word_one.data %>
+    <%= word_two.data %>
+    <br>
+    <%= shoutouts.text %>
+    <br>
+    <img src = "<%= images.text %>">
+    <p>drinkTmpl rendering</p>
+    
+  </script>
+  
+</head>
+<body>
+  <ul>
+    <li><a href="#mood">Mood!</a></li>
+  </ul>
+<h1>Select Mood Link</h1>
+
+<div class="container">
+  
+
+
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="node_modules/underscore/underscore.js"></script>
+<script type="text/javascript" src="node_modules/backbone/backbone.js"></script>
+
+<script type="text/javascript" src="js/models.js"></script>
+<script type="text/javascript" src="js/collections.js"></script>
+<script type="text/javascript" src="js/routes.js"></script>
+<script type="text/javascript" src="js/views.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
